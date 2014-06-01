@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B1CE1DC0-1FCB-4D4A-984F-672609F46857}</ProjectGuid>
+    <ProjectGuid>{2EEC809A-E02C-43E2-B91C-88478DDD933A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AlgorithmsInCSharpTest</RootNamespace>
-    <AssemblyName>AlgorithmsInCSharpTest</AssemblyName>
+    <RootNamespace>LongestCommonSebsequenceTest</RootNamespace>
+    <AssemblyName>LongestCommonSebsequenceTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,13 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="LongestCommonSubsequenceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuickSortTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AlgorithmsInCSharp\AlgorithmsInCSharp.csproj">
-      <Project>{9dd22154-9a51-41eb-a04f-9aecd1171ba1}</Project>
-      <Name>AlgorithmsInCSharp</Name>
+    <ProjectReference Include="..\LongestCommonSubsequence\LongestCommonSubsequence.csproj">
+      <Project>{9d5dcd0a-4746-4e04-a820-596ffa8452a7}</Project>
+      <Name>LongestCommonSubsequence</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

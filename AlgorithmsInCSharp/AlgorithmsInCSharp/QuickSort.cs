@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace AlgorithmsInCSharp
 {
-    class Program
+    class QuickSort
     {
         static void Main(string[] args)
         {
-            QuickSort quickSort = new QuickSort();
+            QuickSortSolution solution = new QuickSortSolution();
             int[] A = { 1, 2, 4, 3, 5 };
-            int[] B = quickSort.Sort(A);
+            int[] B = solution.Sort(A);
             for (int i = 0; i < B.Length; i++)
             {
-                Console.Write(B[i]+" ");
+                Console.Write(B[i] + " ");
             }
         }
     }
 
-    public class QuickSort
+    public class QuickSortSolution
     {
 
         public int[] Sort(int[] A)

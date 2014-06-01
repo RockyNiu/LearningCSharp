@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsInCSharp", "AlgorithmsInCSharp\AlgorithmsInCSharp.csproj", "{9DD22154-9A51-41EB-A04F-9AECD1171BA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "AlgorithmsInCSharp\QuickSort.csproj", "{9DD22154-9A51-41EB-A04F-9AECD1171BA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsInCSharpTest", "AlgorithmsInCSharpTest\AlgorithmsInCSharpTest.csproj", "{B1CE1DC0-1FCB-4D4A-984F-672609F46857}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSortTest", "AlgorithmsInCSharpTest\QuickSortTest.csproj", "{B1CE1DC0-1FCB-4D4A-984F-672609F46857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonSubsequence", "LongestCommonSubsequence\LongestCommonSubsequence.csproj", "{9D5DCD0A-4746-4E04-A820-596FFA8452A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonSubsequenceTest", "LongestCommonSebsequenceTest\LongestCommonSubsequenceTest.csproj", "{2EEC809A-E02C-43E2-B91C-88478DDD933A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{B1CE1DC0-1FCB-4D4A-984F-672609F46857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1CE1DC0-1FCB-4D4A-984F-672609F46857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1CE1DC0-1FCB-4D4A-984F-672609F46857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D5DCD0A-4746-4E04-A820-596FFA8452A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5DCD0A-4746-4E04-A820-596FFA8452A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5DCD0A-4746-4E04-A820-596FFA8452A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5DCD0A-4746-4E04-A820-596FFA8452A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EEC809A-E02C-43E2-B91C-88478DDD933A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EEC809A-E02C-43E2-B91C-88478DDD933A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EEC809A-E02C-43E2-B91C-88478DDD933A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EEC809A-E02C-43E2-B91C-88478DDD933A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
