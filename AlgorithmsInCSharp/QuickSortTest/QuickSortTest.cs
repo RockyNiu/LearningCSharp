@@ -12,13 +12,26 @@ namespace AlgorithmsInCSharpTest
     [TestClass]
     public class QuickSortTest
     {
+        private static QuickSortSolution solution;
+
+        [ClassInitialize]
+        public static void QuickSortTest_ClassInitialize(TestContext context)
+        {
+            solution = new QuickSortSolution();
+        }
+
+        [ClassCleanup]
+        public static void QuickSortTest_ClassCleanup()
+        {
+        }
+
         [TestMethod]
         public void QuickSortTest_Empty()
         {
             int[] input = { };
             int[] excepted = { };
 
-            int[] actual = (new QuickSortSolution()).Sort(input);
+            int[] actual = solution.Sort(input);
             CollectionAssert.AreEqual(excepted, actual);
 
         }
@@ -29,7 +42,7 @@ namespace AlgorithmsInCSharpTest
             int[] input = { 1 };
             int[] excepted = { 1 };
 
-            int[] actual = (new QuickSortSolution()).Sort(input);
+            int[] actual = solution.Sort(input);
             CollectionAssert.AreEqual(excepted, actual);
         }
 
@@ -39,7 +52,7 @@ namespace AlgorithmsInCSharpTest
             int[] input = { 2, 1 };
             int[] excepted = { 1, 2 };
 
-            int[] actual = (new QuickSortSolution()).Sort(input);
+            int[] actual = solution.Sort(input);
             CollectionAssert.AreEqual(excepted, actual);
         }
 
@@ -52,10 +65,10 @@ namespace AlgorithmsInCSharpTest
             int[] input2 = { 2, 3, 4, 1, 3 };
             int[] excepted2 = { 1, 2, 3, 3, 4 };
 
-            int[] actual1 = (new QuickSortSolution()).Sort(input1);
+            int[] actual1 = solution.Sort(input1);
             CollectionAssert.AreEqual(excepted1, actual1);
 
-            int[] actual2 = (new QuickSortSolution()).Sort(input2);
+            int[] actual2 = solution.Sort(input2);
             CollectionAssert.AreEqual(excepted2, actual2);
         }
 
@@ -68,10 +81,10 @@ namespace AlgorithmsInCSharpTest
             int[] input2 = { 1, 2, 3, 3, 4 };
             int[] excepted2 = { 1, 2, 3, 3, 4 };
 
-            int[] actual1 = (new QuickSortSolution()).Sort(input1);
+            int[] actual1 = solution.Sort(input1);
             CollectionAssert.AreEqual(excepted1, actual1);
 
-            int[] actual2 = (new QuickSortSolution()).Sort(input2);
+            int[] actual2 = solution.Sort(input2);
             CollectionAssert.AreEqual(excepted2, actual2);
         }
 
@@ -84,10 +97,10 @@ namespace AlgorithmsInCSharpTest
             int[] input2 = { 4, 3, 3, 2, 1 };
             int[] excepted2 = { 1, 2, 3, 3, 4 };
 
-            int[] actual1 = (new QuickSortSolution()).Sort(input1);
+            int[] actual1 = solution.Sort(input1);
             CollectionAssert.AreEqual(excepted1, actual1);
 
-            int[] actual2 = (new QuickSortSolution()).Sort(input2);
+            int[] actual2 = solution.Sort(input2);
             CollectionAssert.AreEqual(excepted2, actual2);
         }
     }
