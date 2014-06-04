@@ -11,7 +11,6 @@ namespace AlgorithmsInCSharpTest
     [TestClass]
     public class LongestCommonSubsequenceTest
     {
-        private static LongestCommonSubsequenceSolution solution;
         private readonly String strEmpty = "";
         private String expected;
         private String actual;
@@ -19,34 +18,23 @@ namespace AlgorithmsInCSharpTest
         private readonly String str2 = "MZJAWXU";
         private readonly String str3 = "MJAU";
 
-        [ClassInitialize]
-        public static void LongestCommonSubsequenceTestClassInitizlie(TestContext context)
-        {
-            solution = new LongestCommonSubsequenceSolution();
-        }
-
-        [ClassCleanup]
-        public static void LongestCommonSubsequenceTestClassCleanup() 
-        {
-        }
-
         [TestMethod]
         public void LongestCommonSubsequenceTest_Empty()
         {
 
-            actual = solution.LCS(strEmpty, strEmpty);
+            actual = LCSLine.LCS(strEmpty, strEmpty);
             expected = strEmpty;
             Assert.AreEqual(expected, actual);
 
-            actual = solution.LCS(strEmpty, str1);
+            actual = LCSLine.LCS(strEmpty, str1);
             expected = strEmpty;
             Assert.AreEqual(expected, actual);
 
-            actual = solution.LCS(str2, strEmpty);
+            actual = LCSLine.LCS(str2, strEmpty);
             expected = strEmpty;
             Assert.AreEqual(expected, actual);
 
-            actual = solution.LCS("ABC", "EFG");
+            actual = LCSLine.LCS("ABC", "EFG");
             expected = strEmpty;
             Assert.AreEqual(expected, actual);
         }
@@ -54,7 +42,7 @@ namespace AlgorithmsInCSharpTest
         [TestMethod]
         public void LongestCommonSubsequenceTest_Normal()
         {
-            actual = solution.LCS(str1, str2);
+            actual = LCSLine.LCS(str1, str2);
             expected = str3;
             Assert.AreEqual(expected, actual);
         }

@@ -23,9 +23,10 @@ namespace AlgorithmsInCSharpTest
     {
         static void Main(string[] args)
         {
-
+            String filePath = "test.txt";
+            if (args != null && args.Length != 0)
+                filePath = args[0];
             StreamReader inputStreamReader = null;
-            LongestCommonSubsequenceSolution solution = new LongestCommonSubsequenceSolution();
             String readLine;
             int count = 0;
             String[] words;
@@ -34,7 +35,7 @@ namespace AlgorithmsInCSharpTest
             try
             {
 
-                inputStreamReader = new StreamReader(@args[0]);
+                inputStreamReader = new StreamReader(@filePath);
 
                 // read each line of file
                 while ((readLine = inputStreamReader.ReadLine()) != null)
@@ -42,7 +43,7 @@ namespace AlgorithmsInCSharpTest
                     count++;
 
                     // for empty line
-                    if ((readLine = readLine.Trim()) == "")
+                    if (readLine == "")
                         continue;
 
                     words = readLine.Split(';');
@@ -50,11 +51,11 @@ namespace AlgorithmsInCSharpTest
                     // if there is not two words in a line
                     if (words.Length != 2)
                     {
-                        Console.WriteLine("wrong words in line {0}", count);
+                        Console.WriteLine("[ERROR]No only two words in the line {0}", count);
                         continue;
                     }
 
-                    outputLine = solution.LCS(words[0], words[1]).Trim();
+                    outputLine = LCSLine.LCS(words[0], words[1]).Trim();
                     System.Console.WriteLine(outputLine);
                 }
             }
@@ -82,9 +83,9 @@ namespace AlgorithmsInCSharpTest
     /*
      * LCS solutin for each line;
      */
-    public class LongestCommonSubsequenceSolution
+    public class LCSLine
     {
-        public String LCS(String str1, String str2)
+        public static String LCS(String str1, String str2)
         {
             int len1 = str1.Length;
             int len2 = str2.Length;

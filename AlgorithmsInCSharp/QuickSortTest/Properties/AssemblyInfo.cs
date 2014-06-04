@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LongestCommonSebsequenceTest")]
+[assembly: AssemblyTitle("QuickSortTest")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LongestCommonSebsequenceTest")]
+[assembly: AssemblyProduct("QuickSortTest")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("fd16bad4-d610-40d8-9308-b389e160ef06")]
+[assembly: Guid("4fb6266b-a1e4-444b-a9c1-bb35102e0e78")]
 
 // Version information for an assembly consists of the following four values:
 //

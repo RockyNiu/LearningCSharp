@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AlgorithmsInCSharpTest")]
+[assembly: AssemblyTitle("LongestCommonSubsequenceTest")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AlgorithmsInCSharpTest")]
+[assembly: AssemblyProduct("LongestCommonSubsequenceTest")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("155a1e40-8d18-4cbb-b7ad-e359cbe85b85")]
+[assembly: Guid("2af03c8a-68af-4724-85b9-6ef15a17e82f")]
 
 // Version information for an assembly consists of the following four values:
 //
