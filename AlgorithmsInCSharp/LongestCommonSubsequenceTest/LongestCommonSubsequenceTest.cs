@@ -11,12 +11,12 @@ namespace AlgorithmsInCSharpTest
     [TestClass]
     public class LongestCommonSubsequenceTest
     {
-        private readonly String strEmpty = "";
+        private const String strEmpty = "";
         private String expected;
         private String actual;
-        private readonly String str1 = "XMJYAUZ";
-        private readonly String str2 = "MZJAWXU";
-        private readonly String str3 = "MJAU";
+        private const String str1 = "XMJYAUZ";
+        private const String str2 = "MZJAWXU";
+        private const String str3 = "MJAU";
 
         [TestMethod]
         public void LongestCommonSubsequenceTest_Empty()

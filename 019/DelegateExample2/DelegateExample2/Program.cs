@@ -22,7 +22,11 @@ namespace DelegateExample2
             Console.WriteLine(calc2(a,b));
             Console.WriteLine(calc3.Invoke(a,b));
             Console.WriteLine(calc4.Invoke(a,b));
+
+            Func<double, double, double> func = new Func<double, double, double>(calculator.Add);
+            Console.WriteLine(func(1,2));
         }
+
     }
 
     public delegate double Calc (double x, double y);
