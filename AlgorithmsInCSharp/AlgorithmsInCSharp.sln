@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "QuickSort\Quic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSortTest", "QuickSortTest\QuickSortTest.csproj", "{192FD191-6FE5-46D4-8D54-8330386E5261}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B10A9F48-E9D2-42F0-8933-CC27A5B018C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{A1A2B9AA-9CE4-442F-BB51-A663A6B41AC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{192FD191-6FE5-46D4-8D54-8330386E5261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{192FD191-6FE5-46D4-8D54-8330386E5261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{192FD191-6FE5-46D4-8D54-8330386E5261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A2B9AA-9CE4-442F-BB51-A663A6B41AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A2B9AA-9CE4-442F-BB51-A663A6B41AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A2B9AA-9CE4-442F-BB51-A663A6B41AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A2B9AA-9CE4-442F-BB51-A663A6B41AC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
