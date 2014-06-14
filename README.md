@@ -4,25 +4,25 @@
 * Most codes wrote following Mr. Okay (https://www.youtube.com/user/waspec)
 * Feel free to contact me through email or [issues]( https://github.com/RockyNiu/PracticeCodesForCSharpBeginner/issues)
 
-* [001](001)
+* [001](001) (https://www.youtube.com/watch?v=EgIbwCnQ680)
 * [002](002)
 * [003](003)
 * [004](004)
 * [005](005)
 * [006](006)
 * [007](007)
-* (008)
-* (009)
-* (010)
-* (011)
-* (012)
-* (013)
-* (014)
-* (015)
-* (016)
-* (017)
-* (018) 
-* (019)
+* [008](008)
+* [009](009)
+* [010](010)
+* [011](011)
+* [012](012)
+* [013](013)
+* [014](014)
+* [015](015)
+* 016
+* 017
+* 018 
+* [019](019)
 
 ## License and Author
 * Author::[RockyNiu](https://github.com/RockyNiu)
