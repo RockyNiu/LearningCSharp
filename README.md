@@ -5,32 +5,24 @@
 * Feel free to contact me through email or [issues]( https://github.com/RockyNiu/PracticeCodesForCSharpBeginner/issues)
 
 * [001](001)
-* S01_E01_Android History 发展史
-* S01_E02_Android SDK 搭建Android开发环境
-* S01_E03_Android 创世纪
-* S01_E04_Android Framework 体系结构
-* S01_E05_Activity
-* S01_E06_View
-* S01_E07_Componets 控件布局初步
-* S01_E08_Length Units and 长度单位与内外边距
-* S01_E09_CheckBox 多选按钮
-* S01_E10_CheckBox 单选按钮
-* S01_E11_ImageView 的使用方法
-* S01_E12_LinearLayout 线性布局
-* S01_E13_RelativeLayout01 相对布局一
-* S01_E14_RelativeLayout02 相对布局二
-* S01_E15_RelativeLayout03 相对布局三
-* S01_E16_Time and Date 时间和日期
-* S01_E17_ProgressBar 
-* S01_E18_SeekBar和RatingBar
-
-###Season02 重制版第二季
-
-* S02_E00_Introduction 课程介绍
-* S02_E01_Activity Life-Cycle01 生命周期一
-* S02_E02_Activity Life-Cycle02 生命周期二
-* S02_E03_Activity Life_Cycle03 生命周期三
-* S02_E04_Intent
+* [002](002)
+* [003](003)
+* [004](004)
+* [005](005)
+* [006](006)
+* [007](007)
+* (008)
+* (009)
+* (010)
+* (011)
+* (012)
+* (013)
+* (014)
+* (015)
+* (016)
+* (017)
+* (018) 
+* (019)
 
 ## License and Author
 * Author::[RockyNiu](https://github.com/RockyNiu)
