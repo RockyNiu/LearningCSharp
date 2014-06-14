@@ -4,9 +4,7 @@
 * Most codes wrote following Mr. Okay (https://www.youtube.com/user/waspec)
 * Feel free to contact me through email or [issues]( https://github.com/RockyNiu/PracticeCodesForCSharpBeginner/issues)
 
-###Season01 重制版第一季
-
-* [001](tree/master/001)
+* [001](001)
 * S01_E01_Android History 发展史
 * S01_E02_Android SDK 搭建Android开发环境
 * S01_E03_Android 创世纪
